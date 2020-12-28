@@ -3,17 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>Accedi</title>
+    <meta name="author" content="Anna Gallucci, Davide Menguzzato">
+    <meta name="keywords" content="login, form, registrazione, veicolo, PandaRent, noleggio">
+    <meta name="description" content="form accesso o registrazione alla prenotazione">
+    <link rel="stylesheet" href="/css/master.css">
+    <style media="screen">
+      .container{display: inline-block;}
+    </style>
   </head>
   <body>
     <header>
-      <div id="omn">
-      <a href="login.html"><img src="cartela immagini/clipart.png" alt="login" width="100px" height="100px"></a>
+      <div class="user">
+      <a href="login.html"><img src="cartela immagini/cartella icone/user.png" alt="login" width="100px" height="100px"></a>
       </div>
-      <div id="logo">
+      <div class="logo">
         <a href="0.0index.html" target="_blank"><img src="cartela immagini/logo/panda (2).png" alt="logo Pandarent" width="250px" height="250px"></a>
       </div>
-      <div id="drop-menu">
-        <ul id="menu">
+      <nav>
+      <div class="drop-menu">
+        <ul class="menu">
           <li><a href="0.0index.html">menu</a>
           <ul>
             <li><a href="chi_siamo.html">Chi siamo</a></li>
@@ -26,11 +34,13 @@
         </li>
         </ul>
         </div>
+      </nav>
     </header>
-    <div class="container">
-       <div class="content_login">
-    <table border="0" cellspacing="1" cellpadding="0" width="300" align="center" bgcolor="#cccccc"><tbody>
-    <tr><form action="mailto:an.gallux01@gmail.com" method="post"><td>
+    <main>
+    <div class="container login">
+    <div class="content login">
+    <table border="1px" cellspacing="1" cellpadding="0" width="300" align="center"><tbody>
+    <tr><form action="mailto:anna.gallucci@edu.unito.it" method="post"><td>
     <table border="0" cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff"><tbody>
     <tr>
     <td colspan="3"><strong>Accedi</strong></td>
@@ -55,39 +65,48 @@
     </form></tr>
     </tbody></table>
   </div>
-  <div class"content_signin">
-    <table border="0" cellspacing="1" cellpadding="0" width="300" align="center" bgcolor="#cccccc"><tbody>
-<tr><form action="mailto:an.gallux01@gmail.com" method="post">
-  <td>
-<table border="0" cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff"><tbody>
-<tr>
-<td colspan="3"><strong>Registrati</strong></td>
-</tr>
-<tr>
-<td width="78">Email</td>
-<td width="6">:</td>
-<td width="294"><input id="email" name="email" type="text" /></td>
-</tr>
-<tr>
-<td width="78">confirm email</td>
-<td width="6">:</td>
-<td width="294"><input id="confirm" name="confirm email" type="text" /></td>
-</tr>
-<tr>
-<td>Password</td>
-<td>:</td>
-<td><input id="password" name="password" type="password" /></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td><input name="Submit" type="submit" value="SignIn" /></td>
-</tr>
-</tbody></table>
-</td>
-</form></tr>
-</tbody></table>
-</div>
-</div>
+  <div class="container sign">
+ 		<h2 class="title">Registration form</h2>
+    <table border="1px" cellspacing="1" cellpadding="20px" width="500px" align="center"><tbody>
+     <tr><form><td>
+         <div id="fname"> <span>Nome</span>
+           <input type="text"> </div>
+         <div id="lname"> <span>Cognome</span>
+           <input type="text"> </div>
+        <div id="email"> <span>e-mail</span>
+           <input type="text"> </div>
+         <div id="dob"> <span>Data di nascita</span>
+           <input type="text"> </div>
+         <div id="mobile"> <span>Cellulare</span>
+           <input type="text"> </div>
+           <div id="file"><span>Documento d'Identità</span>
+             <input type="file"></div>
+         <input type="button" id="submit" value="invia">
+         <input type="button" id="reset" value="reset">
+     </form>
+   </tbody></table>
+ </div>
+</main>
+<footer class="end">
+  <ul>
+    <li>Servizi
+      <ul>
+        <li><a href="flotta.html">La flotta</a></li>
+        <li><a href="tarife.html">Tariffe</a></li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li>Informazioni
+      <ul>
+        <li><a href="chi_siamo.html">Chi siamo</a></li>
+        <li><a href="contatti.html">contatti</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="#"></a> </li>
+      </ul>
+    </li>
+  </ul>
+  <p>Pandarent 2020</p>
+</footer>
   </body>
 </html>
