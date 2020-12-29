@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>disponibilità Fiat Panda</title>
+    <meta name="keywords" content="disponibilità, tariffe, noleggio, auto, form, mappa, Pandarent">
+    <meta name="description" content="disponibilità del veicolo Fiat Panda d'epoca">
+    <meta name="author" content="Anna Gallucci, Davide Menguzzato">
+    <link rel="stylesheet" href="/css/master.css">
+  </head><!--collegato a tariffe1.html-->
+  <body>
+    <header>
+      <div class="user">
+      <a href="login.html"><img src="cartellaimmagini/cartellaicone/user.png" alt="login"></a>
+      </div>
+      <div class="logo">
+        <a href="0.0index.html" target="_blank"><img src="cartellaimmagini/logo/panda(2).png" alt="logo Pandarent"></a>
+      </div>
+      <nav>
+      <div class="drop-menu">
+        <ul class="menu">
+          <li><a href="0.0index.html">menu</a>
+          <ul>
+            <li><a href="chi_siamo.html">Chi siamo</a></li>
+            <li><a href="flotta.html" target="_blank">La flotta</a></li>
+            <li><a href="contatti.html">contatti</a></li>
+            <li><a href="login.html" target="_blank">login</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+
+      <div class="container">
+        <img src="#" alt=""><!--immagine che sarà presente anche sulla tariffa-->
+        <div class="content form" style="display:inline-block;"> <!--form-->
+          <form id="f" method="post" action="mailto:anna.gallucci@edu.unito.it">
+          <label class="città">Città:</label>
+          <select style="font-size:90%" name="c" class="città">
+            <option value="Torino">TORINO</option>
+            <option value="Milano">MILANO</option>
+            <option value="Trento">TRENTO</option></select>
+             <label id="ritiro">Data ritiro</label>
+             <input type="date" name="data_partenza" step="1" min="2021-01-01" max="2021-12-31">
+             <label id="consegna">Data Consegna</label>
+             <input type="date" name="data_consegna" step="1" min="2021-01-01" max="2021-12-31">
+           <br/>
+           <input type="radio" name="nolegio" value="NL">Noleggio lungo<!--noleggio lungo-->
+           <input type="radio" name="nolegio" value="NB">Noleggio Breve<!--noleggio breve-->
+           <input type="radio" name="nolegio" value="CS">Car-Sharing<!--carsharing-->
+          </form>
+        </div><div id="map" style="padding:10%;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d360652.75944547786!2d7.395429025336695!3d45.073631184894424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d0cc3ed5cdf%3A0x405e67d473c94e0!2sTorino%20TO!5e0!3m2!1sit!2sit!4v1609211491423!5m2!1sit!2sit" width="800" height="600" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><!--TORINO-->
+        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d358188.037368996!2d8.897554898428103!3d45.46287301438426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c1493f1275e7%3A0x3cffcd13c6740e8d!2sMilano%20MI!5e0!3m2!1sit!2sit!4v1609211530369!5m2!1sit!2sit" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> MILANO-->
+        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88584.80568838507!2d11.05271948186378!3d46.06555398939422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478276cac9ce9ddb%3A0x27c6a299139ff547!2sTrento%20TN!5e0!3m2!1sit!2sit!4v1609211588093!5m2!1sit!2sit" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> TRENTO-->
+      </div><br/><input type="submit" id="search" value="cerca" style="width:150px;float:right;">
+      </div>
+
+    <footer class="end">
+      <ul>
+        <li>Servizi
+          <ul>
+            <li><a href="flotta.html">La flotta</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>Informazioni
+          <ul>
+            <li><a href="chi_siamo.html">Chi siamo</a></li>
+            <li><a href="contatti.html">contatti</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </li>
+      </ul>
+      <p>Pandarent 2020</p>
+    </footer>
+  </body>
+</html>
