@@ -2,22 +2,21 @@
 <html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Accedi</title>
     <meta name="author" content="Anna Gallucci, Davide Menguzzato">
     <meta name="keywords" content="login, form, registrazione, veicolo, PandaRent, noleggio">
     <meta name="description" content="form accesso o registrazione alla prenotazione">
-    <link rel="stylesheet" href="/css/master.css">
-    <style media="screen">
-      .container{display: inline-block;}
-    </style>
+    <link rel="stylesheet" href="login.css">
+
   </head>
   <body>
     <header>
       <div class="user">
-      <a href="login.html"><img src="cartela immagini/cartella icone/user.png" alt="login" width="100px" height="100px"></a>
+      <a href="login.html"><img src="cartellaimmagini/cartellaicone/user.png" alt="login"></a>
       </div>
       <div class="logo">
-        <a href="0.0index.html" target="_blank"><img src="cartela immagini/logo/panda (2).png" alt="logo Pandarent" width="250px" height="250px"></a>
+        <a href="0.0index.html" target="_blank"><img src="cartellaimmagini/logo/panda(2).png" alt="logo Pandarent"></a>
       </div>
       <nav>
       <div class="drop-menu">
@@ -26,9 +25,8 @@
           <ul>
             <li><a href="chi_siamo.html">Chi siamo</a></li>
             <li><a href="flotta.html" target="_blank">La flotta</a></li>
-            <li><a href="tarife.html"target="_blank">Tariffe</a></li>
             <li><a href="contatti.html">contatti</a></li>
-            <li><a href="login.html"target="_blank">login</a></li>
+            <li><a href="login.html" target="_blank">login</a></li>
             <li><a href="faq.html">FAQ</a></li>
           </ul>
         </li>
@@ -36,57 +34,51 @@
         </div>
       </nav>
     </header>
-    <main>
-    <div class="container login">
-    <div class="content login">
-    <table border="1px" cellspacing="1" cellpadding="0" width="300" align="center"><tbody>
-    <tr><form action="mailto:anna.gallucci@edu.unito.it" method="post"><td>
-    <table border="0" cellspacing="1" cellpadding="3" width="100%" bgcolor="#ffffff"><tbody>
-    <tr>
-    <td colspan="3"><strong>Accedi</strong></td>
-    </tr>
-    <tr>
-    <td width="78">Email</td>
-    <td width="6">:</td>
-    <td width="294"><input id="email" name="email" type="text" /></td>
-    </tr>
-    <tr>
-    <td>Password</td>
-    <td>:</td>
-    <td><input id="mypassword" name="mypassword" type="password" /></td>
-    </tr>
-    <tr>
-    <td></td>
-    <td></td>
-    <td><input name="Submit" type="submit" value="LogIn" /></td>
-    </tr>
-    </tbody></table>
-    </td>
-    </form></tr>
-    </tbody></table>
+  <div class="for">
+    <form class="1" action="mailto:anna.gallucci@edu.unito.it" method="post">
+      <table>
+          <tr>
+            <td><strong>Registration form</strong></td>
+          </tr>
+          <tr>
+            <td class="fn">Nome</td>
+           <td class="ln">:</td>
+           <td><input id="nome" name="nome" type="text" /></td>
+         </tr>
+         <tr>
+           <td class="fn">Cognome</td>
+           <td class="ln">:</td>
+           <td><input id="cognome" name="cognome" type="text" /></td>
+        </tr>
+          <tr>
+            <td class="fn">Email</td>
+            <td class="ln">:</td>
+             <td><input class="email" name="email" type="text" /></td>
+          </tr>
+          <tr>
+            <td class="fn">data di nascita</td>
+            <td class="ln">:</td>
+            <td><input type="date" step="1" min="1950-01-01" max="2002-12-31"/></td>
+         </tr>
+           <tr>
+             <td class="fn">cellulare</td>
+             <td class="ln">:</td>
+              <td><input id="tel" name="tel" type="tel" /></td>
+          </tr>
+             <tr>
+             <td class="fn">Documento</td>
+               <td class="ln">:</td>
+               <td><input id="file" name="file" type="file" /></td>
+             </tr>
+             <tr>
+            <td></td>
+            <td></td>
+            <td class="fn"><input name="Submit" type="submit" value="LogIn" /></td>
+            </tr>
+
+      </table>
+    </form>
   </div>
-  <div class="container sign">
- 		<h2 class="title">Registration form</h2>
-    <table border="1px" cellspacing="1" cellpadding="20px" width="500px" align="center"><tbody>
-     <tr><form><td>
-         <div id="fname"> <span>Nome</span>
-           <input type="text"> </div>
-         <div id="lname"> <span>Cognome</span>
-           <input type="text"> </div>
-        <div id="email"> <span>e-mail</span>
-           <input type="text"> </div>
-         <div id="dob"> <span>Data di nascita</span>
-           <input type="text"> </div>
-         <div id="mobile"> <span>Cellulare</span>
-           <input type="text"> </div>
-           <div id="file"><span>Documento d'Identità</span>
-             <input type="file"></div>
-         <input type="button" id="submit" value="invia">
-         <input type="button" id="reset" value="reset">
-     </form>
-   </tbody></table>
- </div>
-</main>
 <footer class="end">
   <ul>
     <li>Servizi
