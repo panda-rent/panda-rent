@@ -2,53 +2,44 @@
 <html lang="it" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contatti</title>
-    <style media="screen">
-    header{background-color: #B3B2B2;display: flex; justify-content: center;}
-    footer{background-color: #C5C4C4;}
-    #drop-menu {margin: 0 auto;padding: 0;width: 100px;}
-    ul#menu {margin:60px 0 0;padding: 0;list-style: none;float:left; width: 100px;background-color: #111;font-size:80%}
-    ul#menu li {margin:0;padding:0;float:left;display: block;border-right: 1px solid #222;position: relative;}
-    ul#menu li a {float: left;padding:12px 30px;color: #fff;text-transform: uppercase;text-decoration:none;}
-    ul#menu li a:hover {background: #666;color:#fff}
-    ul#menu ul {margin:2px 0 0;padding:0;display:inline-block;list-style: none;opacity: 0;visibility: hidden;position: absolute;top: 38px;left: 0;z-index:9999;background: #444;}
-    ul#menu li:hover ul {opacity: 1;visibility: visible;}
-    ul#menu ul li {float: none;display: block;border: 0;}
-    ul#menu ul a {padding:10px;width: 130px;display: block;white-space: nowrap;float: none;text-transform: none;}
-    ul#menu ul a:hover {background-color: #0186ba;color:#fff}
-    .container{ display:flex; justify-content: space-around;}
-    button{ width: 100px; height: 50px;}
-    </style>
+    <meta name="keywords" content="contatti, renting, veicoli, carsharing, pandarent, noleggio, auto">
+    <meta name="description" content="Contatti servizio Pandarent">
+    <meta name="author" content="Anna Gallucci, Davide Menguzzato">
+    <link rel="stylesheet" href="#" type="text/css">
   </head>
   <body>
     <header>
-      <div id="omn">
-      <a href="login.html"><img src="cartela immagini/clipart.png" alt="login" width="100px" height="100px"></a>
+      <div class="user">
+      <a href="login.html"><img src="cartellaimmagini/cartellaicone/user.png" alt="login"></a>
       </div>
-      <div id="logo">
-        <a href="0.0index.html" target="_blank"><img src="cartela immagini/logo/panda (2).png" alt="logo Pandarent" width="250px" height="250px"></a>
+      <div class="logo">
+        <a href="0.0index.html" target="_blank"><img src="cartellaimmagini/logo/panda(2).png" alt="logo Pandarent"></a>
       </div>
-      <div id="drop-menu">
-        <ul id="menu">
+      <nav>
+      <div class="drop-menu">
+        <ul class="menu">
           <li><a href="0.0index.html">menu</a>
           <ul>
             <li><a href="chi_siamo.html">Chi siamo</a></li>
             <li><a href="flotta.html" target="_blank">La flotta</a></li>
-            <li><a href="tarife.html"target="_blank">Tariffe</a></li>
             <li><a href="contatti.html">contatti</a></li>
-            <li><a href="login.html"target="_blank">login</a></li>
+            <li><a href="login.html" target="_blank">login</a></li>
             <li><a href="faq.html">FAQ</a></li>
           </ul>
         </li>
         </ul>
         </div>
+      </nav>
     </header>
+
     <div class="container">
       <div class="heading">
         <h3>Contatti</h3>
       </div>
       <div class="mappa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2818.1590002735493!2d7.695933515684987!3d45.062285568191896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4788729e42139e09%3A0x267dbcc299d6e9b0!2sCorso%20Moncalieri%2C%201%2C%2010131%20Torino%20TO!5e0!3m2!1sit!2sit!4v1609070867127!5m2!1sit!2sit" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2818.1590002735493!2d7.695933515684987!3d45.062285568191896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4788729e42139e09%3A0x267dbcc299d6e9b0!2sCorso%20Moncalieri%2C%201%2C%2010131%20Torino%20TO!5e0!3m2!1sit!2sit!4v1609070867127!5m2!1sit!2sit" width="600" height="450" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
       <div class="info">
         <h4>Orari di Apertura</h4>
@@ -91,12 +82,12 @@
         </form>
       </div>
       </div>
+
     <footer class="end">
       <ul>
         <li>Servizi
           <ul>
             <li><a href="flotta.html">La flotta</a></li>
-            <li><a href="tarife.html">Tariffe</a></li>
           </ul>
         </li>
       </ul>
@@ -106,12 +97,10 @@
             <li><a href="chi_siamo.html">Chi siamo</a></li>
             <li><a href="contatti.html">contatti</a></li>
             <li><a href="faq.html">FAQ</a></li>
-            <li><a href="#"></a> </li>
           </ul>
         </li>
       </ul>
       <p>Pandarent 2020</p>
     </footer>
-
   </body>
 </html>
