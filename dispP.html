@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Disponibilità</title>
+    <meta name="keywords" content="disponibilità, tariffe, noleggio, auto, form, mappa, Pandarent">
+    <meta name="description" content="disponibilità del veicolo Fiat Panda d'epoca">
+    <meta name="author" content="Anna Gallucci, Davide Menguzzato">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header  class="header">
+      <div class="user">
+      <a href="login.html"><img src="cartellaimmagini/cartellaicone/user.png" alt="login"></a>
+      </div>
+      <div class="logo">
+        <a href="0.0index.html" target="_blank"><img src="cartellaimmagini/logo/panda(2).png" alt="logo Pandarent"></a>
+      </div>
+      <nav>
+      <div class="drop-menu">
+        <button class="dropb" type="button">Menu</button>
+          <div class="menu">
+            <a href="chi_siamo.html">Chi siamo</a>
+            <a href="servizi.html">servizio</a>
+            <a href="contatti.html">contatti</a>
+            <a href="flotta.html">la flotta</a>
+            <a href="faq.html">FAQ</a>
+            <a href="partners.html">Partner</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+      <div class="container">
+        <div class="content form" style="display:inline-block;"> <!--form-->
+          <form id="f" method="post" action="mailto:anna.gallucci@edu.unito.it">
+          <label class="città">Città:</label>
+          <select style="font-size:90%" name="c" class="città">
+            <option value="Torino">TORINO</option>
+            <option value="Milano">MILANO</option>
+            <option value="Trento">TRENTO</option></select>
+             <label id="ritiro">Data ritiro</label>
+             <input type="date" name="data_partenza" step="1" min="2021-01-01" max="2021-12-31">
+             <label id="consegna">Data Consegna</label>
+             <input type="date" name="data_consegna" step="1" min="2021-01-01" max="2021-12-31">
+           <br/>
+           <input type="radio" name="pack" value="si">Pacchetto Silver<!--noleggio lungo-->
+           <input type="radio" name="pack" value="go">Pacchetto Gold<!--noleggio breve-->
+           <input type="radio" name="pack" value="pr">Pacchetto premium<!--carsharing-->
+          </form>
+        </div><div id="map" style="padding:10%;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d360652.75944547786!2d7.395429025336695!3d45.073631184894424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d0cc3ed5cdf%3A0x405e67d473c94e0!2sTorino%20TO!5e0!3m2!1sit!2sit!4v1609211491423!5m2!1sit!2sit" width="800" height="600" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><!--TORINO-->
+        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d358188.037368996!2d8.897554898428103!3d45.46287301438426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c1493f1275e7%3A0x3cffcd13c6740e8d!2sMilano%20MI!5e0!3m2!1sit!2sit!4v1609211530369!5m2!1sit!2sit" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> MILANO-->
+        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88584.80568838507!2d11.05271948186378!3d46.06555398939422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478276cac9ce9ddb%3A0x27c6a299139ff547!2sTrento%20TN!5e0!3m2!1sit!2sit!4v1609211588093!5m2!1sit!2sit" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> TRENTO-->
+      </div><br/><form action="login.html">
+        <input type="submit" value="completa" style="width:150px;float:right;">
+      </form>
+      <div class="">
+        <p>Prezzo include:</p>
+        <ul>
+          <li>Modifiche e cancellazioni della prenotazione gratis;</li>
+          <li>Importo massimo addebitabile per furto o danno;</li>
+          <li>Catene da neve;</li>
+        </ul>
+      </div>
+      </div>
+
+      <div class="footer">
+          <footer>
+         <ul class="lista">
+          <li class="elemento">
+           <a href="servizi.html">servizi</a>
+          </li>
+           <li class="elemento">
+           <a href="chi_siamo.html">Chi siamo</a>
+          </li>
+         <li class="elemento">
+            <a href="contatti.html">Contattaci</a>
+          </li>
+            <li class="elemento">
+              <a href="FAQ.html">FAQ</a>
+            </li>
+            <li class="elemento">
+              <a href="social.html">I nostri Social</a>
+            </li>
+         </ul>
+          <div class="footer-scritta">
+            <img class="img-fluida" src="cartellaimmagini/logo/panda(2).png" alt="logo Pandarent">
+           <a href="0.0index.html" target="_blank">
+            <p>PandaRent©</p></a>
+            <p class="copyright">Progettato da Anna Gallucci e Davide Menguzzato</p>
+          </div>
+        </footer>
+      </div>
+  </body>
+</html>
