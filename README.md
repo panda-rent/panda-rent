@@ -1,6 +1,6 @@
 # index
 ehi ciao, allora
-1) devo terminare ancora tariffa e disponibilità ma vedrai tutto qui
+1) come va?
 2) come ti ho detto (e lasciato scritto) cartella condivisa su drive, ti scarichi tutta la cartella zip così il noome rimane invariato
 3) se non ti piace qualcosa, cambialo senza problemi, anche per una stronzata
 4) il css idem, il footer a me piace tipo troppissimo quindi se vuoi lasciarlo sarebbe perfetto.
