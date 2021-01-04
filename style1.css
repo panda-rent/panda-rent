@@ -1,0 +1,227 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*_______________reset done_________________*/
+*{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+#surv-log{
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+}
+.item1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.dropb {
+    background-color: #9E2020;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .drop-menu {
+    order: 3;
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+  }
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: #4b4c4d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .menu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .menu a:hover {background-color: #959494;}
+  .drop-menu:hover .menu {
+    display: block;
+  }
+  .drop-menu:hover .dropb {
+    background-color: #9C3333;
+  }
+  /*home*/
+.box-item{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: slateblue;
+    justify-content: center;
+    align-items: center;
+}
+.item2{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 15px;
+}
+.item2 .img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    margin-right: 10px;
+}
+ .item2 .text{  
+    font-size: 2.5em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    text-align: left;
+    line-height: 2em;
+}
+.item2 .aref{
+    border: 2px solid tan ;
+    width: 90px;
+    height:40px;
+    font-size: 19px;
+    text-align: center;
+    
+   
+}
+/*chi siamo pg*/
+.box-item .text{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+
+
+/*faq*/
+  .container-faq{
+    float: left;
+    width: 100%;
+    
+    border-radius: 4px;
+    background: #c8dbee;
+    padding: 25px;
+    }
+  .main{
+    padding-top: 10px;
+  }
+  .box-space{width: 100%;
+    display: block;
+    clear: both;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #ef0f0f;
+    position: relative;
+    padding: 20px 28px 10px 0;}
+  
+  .content-faq{width: auto;
+    /*overflow: scroll;
+    display: none;*/
+    font-size: 18px;
+    font-style: italic;
+    line-height: 20px;
+    font-weight: 400;}
+  .container .content-form{
+      display: inline-block;
+  }
+#sub{
+    width:150px;
+    float:right;
+}
+.c-text{
+    list-style: none;
+    text-align: justify;
+}
+.for{display:inline-flex;
+    align-items: center;
+    justify-content: center;
+ }
+ table{
+   border: 1px solid red;
+   width: 300px;
+   align-content: center;
+   border-spacing: 5px;
+ }
+ #nome #cognome #tel .email #file {width:294px;}
+ .fn{width:78px;}
+ td{padding: 5px;}
+ .ln{width:6px;}
+ 
+
+div.item3{
+    padding: 40px;
+    background-color: #4b4c4d;
+    color: rgb(124, 112, 89);
+  }
+  footer{display: block;
+  }
+  .elemento{
+    display: inline-block;
+    margin-right: 15px;
+    padding:0 10px;
+  }
+  .item3 ul{
+    list-style: none;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 17px;
+  }
+  .footer-scritta{ text-align: center;
+  }
+  .img-fluida{
+    height:90px;
+    max-width: 100%
+  }
+.elemento a:hover{
+    color: whitesmoke;
+    background:rgb(88, 88, 88);
+}
+.elemento a:link, a:visited{
+    text-decoration: none;
+}
